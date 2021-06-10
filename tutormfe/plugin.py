@@ -34,6 +34,11 @@ config = {
             "repository": "https://github.com/edx/frontend-app-profile",
             "port": 1995,
         },
+        "PUBLISHER_MFE_APP": {
+            "name": "publisher",
+            "repositoryy": "https://github.com/edx/frontend-app-publisher",
+            "port": 1996,
+        },
     },
 }
 

@@ -22,16 +22,16 @@ def load_about():
 ABOUT = load_about()
 
 setup(
-    name="tutor-mfe",
+    name="mfe-mbdc",
     version=ABOUT["__version__"],
-    url="https://github.com/overhangio/tutor-mfe",
+    url="https://github.com/mdbc-tech/mfe-mdbc",
     project_urls={
-        "Code": "https://github.com/overhangio/tutor-mfe",
+        "Code": "https://github.com/mdbc-tech/mfe-mdbc",
         "Issue tracker": "https://github.com/overhangio/tutor-mfe/issues",
     },
     license="AGPLv3",
-    author="Overhang.IO",
-    description="mfe plugin for Tutor",
+    author="Overhang.IO mod by mbdc-tech",
+    description="mfe plugin for Tutor with adapations",
     long_description=load_readme(),
     packages=find_packages(exclude=["tests*"]),
     include_package_data=True,
